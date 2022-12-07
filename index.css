@@ -1,0 +1,123 @@
+body {
+    color: aliceblue;
+    /* background-color: rgb(40, 185, 40); */
+    background-color: #94c573;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: grid;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 400%;
+    font-weight: 900;
+    text-align: left;
+    margin-left: 55px;
+
+   
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: grid;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    background-color: white;
+    color: rgb(77, 77, 77);
+    width: 220px;
+    padding: 10px;
+    border-radius: 200px;
+    font-weight: 900;
+}
+
+h2:active {
+    background-color: darkorange;
+}
+
+#plato-seleccionado {
+    margin-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+    display: grid;
+    margin: auto;
+}
+
+#nombre-comida {
+    margin: 10px;
+    text-align: center;
+    font-size: 200%;
+    font-weight: 900;
+}
+
+#precio-total {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 150%;
+    font-weight: 900;
+
+}
+
+#ingredientes {
+    margin-top: -30px;
+}
+
+#ingre-title-1 {
+    margin-top: 50px;
+    border-radius: 0%;
+    background-color: #94c573;
+    border: #569199 2px dashed;
+    color: white;
+}
+
+#ingre-title-2 {
+    border-radius: 0%;
+    background-color: #94c573;
+    border: #569199 2px dashed;
+    color: white;
+}
+
+#ingre-title-1:active {
+    background-color: #569199;
+}
+
+#ingre-title-2:active {
+    background-color: #569199;
+}
+
+.ingre {
+/*     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ */    
+    font-weight: 600;
+    display: grid;
+    text-align: left;
+    margin-left: 20%;
+    margin-top: 30px;
+}
+
+li{
+    margin-left: 20%;
+}
+
+#pasos {
+     font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    text-align: left;
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#alerta {
+    margin: auto;
+    width: 50%;
+    padding: 100% 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
